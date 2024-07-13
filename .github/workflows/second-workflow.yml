@@ -4,7 +4,7 @@ jobs:
   Trigger-2nd-workflow:
     runs-on: ubuntu-latest
     steps:
-    - name: print-message
-      run: echo "hi eerie, how are you?"
-    - name: print another message 
-      run: echo "eerir you are nakti !!!!"
+      - name: print-message
+        run: echo "hi eerie, how are you?"
+      - name: print another message 
+        run: echo "eerir you are nakti !!!!"
