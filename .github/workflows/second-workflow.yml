@@ -7,4 +7,4 @@ jobs:
       - name: print-message
         run: echo "hi eerie, how are you?"
       - name: print another message 
-        run: echo "eerir you are nakti     !!!!"
+        run: echo "eerir you are nakti  check 3   !!!!"
