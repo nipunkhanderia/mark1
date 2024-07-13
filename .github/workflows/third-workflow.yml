@@ -2,8 +2,9 @@ name: Payal
 on: push
 jobs:
   Payal-erri-attack
+  runs-on: ubuntu-latest
   steps:
     - name: greeting
       uses: actions/checkout@v4
-    -name: Tests
+    - name: Tests
       uses: npm test      
