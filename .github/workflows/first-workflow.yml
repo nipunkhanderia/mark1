@@ -4,8 +4,8 @@ jobs:
     Trigger manually:
       runs-on:ubuntu-latest
       steps:
-      - name : Print greetings
-      - run : echo "Hello World"
-      - name : Print goodbye
-      - run : echo "see you later"
+          - name : Print greetings
+            run : echo "Hello World"
+          - name : Print goodbye
+            run : echo "see you later"
     
