@@ -4,7 +4,7 @@ jobs:
   Payal-erri-attack:
     runs-on: ubuntu-latest
     steps:
-      - name: greeting
+      - name: greeeting
         uses: actions/checkout@v4
       - name: Tests
         run: npm test      
