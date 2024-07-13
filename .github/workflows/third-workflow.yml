@@ -1,0 +1,9 @@
+name: Payal
+on: push
+jobs:
+  Payal-erri-attack
+  steps:
+    - name: greeting
+      uses: actions/checkout@v4
+    -name: Tests
+      uses: npm test      
